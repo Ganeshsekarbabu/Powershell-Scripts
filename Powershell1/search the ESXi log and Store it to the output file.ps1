@@ -3,7 +3,7 @@
 #Purpose: To search the ESXi log for the Specific word
 #Reference - http://techbrainblog.com/2015/12/11/powershell-script-to-audit-the-vmware-vcenteresxi-windows-logs/
 # ESXi has three type of logs 'hostd' 'vnkernal' 'vpxa' 
-# By selecting the options we can point to the logs and search them using the key word
+# By selecting the options we can point to the logs and search them using the key word.
 # Output of the search will be stored in the given path and also it will append the result.
 
 

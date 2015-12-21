@@ -2,7 +2,7 @@ Techbrainblog Repository
 This repository contains scripts mostly written in powershell for Windows\VMware\HP based solutions and it is used for all my public scripts.
 
 
-Licensing
+Licensing.
 
 The MIT License (MIT)
 
