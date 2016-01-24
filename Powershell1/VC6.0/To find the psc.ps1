@@ -3,7 +3,7 @@
 # Purpose: To find which platform service controller ( PSC ) is pointing to my vCenter appliance VCSA -6.0
 # Download the Plink.exe from http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 # Make sure to change the default shell to Bash ( chsh -s "/bin/bash" root )
-# Reference : 
+# Reference : http://techbrainblog.com/2016/01/24/powershell-script-to-find-which-platform-service-controller-psc-is-pointing-to-my-vcenter-appliance-vcsa-6-0
 
 
 $User = 'root'
