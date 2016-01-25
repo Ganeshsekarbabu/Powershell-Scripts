@@ -5,10 +5,9 @@
 # Make sure to change the default shell to Bash ( chsh -s "/bin/bash" root )
 # Reference : http://techbrainblog.com/2016/01/24/powershell-script-to-find-which-platform-service-controller-psc-is-pointing-to-my-vcenter-appliance-vcsa-6-0
 
-
+$Computer = Read-Host 'Enter the VC Appliance Name'
 $User = 'root'
 $Pswd = Read-Host 'Enter the password for the root user'
-$Computer = Read-Host 'Enter the VC Appliance Name'
 $plink = Read-host "Enter the path of the plink.exe "
 $plinkoptions = " -v -batch -pw $Pswd"
 
