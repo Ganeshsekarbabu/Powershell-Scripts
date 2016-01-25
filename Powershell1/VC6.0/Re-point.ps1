@@ -3,7 +3,7 @@
 # Purpose: to re-point\fail-over the VC to another replication Platform Service Controller
 # Download the Plink.exe from http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html
 # Make sure to change the default shell to Bash ( chsh -s "/bin/bash" root )
-# Reference : http://techbrainblog.com/2016/01/24/powershell-script-to-find-which-platform-service-controller-psc-is-pointing-to-my-vcenter-appliance-vcsa-6-0
+# Reference : http://techbrainblog.com/2016/01/24/powershell-script-to-re-pointfail-over-the-vc-to-another-replication-platform-service-controller-psc-vcsa-6-0/
 
 $Computer = Read-Host 'Enter the VC Appliance Name'
 $User = 'root'
